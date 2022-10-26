@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'directives_array';
+  title = 'directives';
+  
+  colors=["blue","orange","yellow","green","black","white"];
+
+  numbers = [10,24,35,67,89,56,11,4,8]; 
 }
